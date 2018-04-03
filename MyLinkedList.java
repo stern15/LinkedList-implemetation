@@ -108,5 +108,9 @@ public class MyLinkedList implements NodeInterface {
                 root = root.next();
             }
         }
+//        if(root != null){
+//            System.out.println(root.getData());
+//            traverse(root.next());
+//        }
     }
 }
